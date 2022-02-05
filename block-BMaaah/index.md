@@ -2,9 +2,9 @@ writeCode
 
 Write code to execute below expressions.
 
-1. Create a database named `blog`.
-2. Create a collection called 'articles'.
-3. Insert multiple documents(at least 3) into articles. It should have fields
+1. Create a database named `blog`.   //use blog
+2. Create a collection called 'articles'.   db.blog.createCollection(articles)
+3. Insert multiple documents(at least 3) into articles. It should have fields. db.articles.insertMany()
 
 - title as string
 - createdAt as date
