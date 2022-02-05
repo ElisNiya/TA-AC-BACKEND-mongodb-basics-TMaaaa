@@ -2,9 +2,13 @@ writeCode
 
 Write code to:-
 
-- create a database named `sports`.
-- list all databases present in local mongod server.
-- create 3 collections named `cricket`, `football`, `TT` in sports databse.
+- create a database named `sports`.    use sports
+- list all databases present in local mongod server.    show dbs
+- create 3 collections named `cricket`, `football`, `TT` in sports databse.   
+db.createCollection(cricket)
+db.createCollection(football)
+db.createCollection(TT)
+
 - add multiple players in those collections which should have fields like `name`, `age` and `email` and `bid_price`.
 - list all collections in sports database.
 - rename `TT` collection to `tennis`.
